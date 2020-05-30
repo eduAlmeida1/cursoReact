@@ -7,7 +7,7 @@ module.exports = {
     'plugin:react/recommended',
     'airbnb',
     'prettier',
-    'prettier/react'
+    'prettier/react',
   ],
   globals: {
     Atomics: 'readonly',
@@ -26,6 +26,7 @@ module.exports = {
     'prettier'
   ],
   rules: {
+    'react/state-in-constructor': 'off',
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': [
       'warn',
